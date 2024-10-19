@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gereja Masehi Advent</title>
+    
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #005500;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .contentOverALL {
+            padding: 0 16px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .carousel-item img {
+            max-height: 500px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        footer {
+            background-color: #005500;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            margin: 10px 0;
+        }
+
+        .contact-form button {
+            background-color: #006600;
+            border: none;
+        }
+
+        .contact-form button:hover {
+            background-color: #004400;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gereja Masehi Advent Hari Ketujuh Jatinegara</h1>
+        <p>Mengabarkan Kebenaran dan Kasih Tuhan</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#">Gereja Advent</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Jadwal Ibadah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">Berita Terbaru</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bootstrap Carousel -->
+    <section id="home" class="banner">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./anak_anak.jpg" class="d-block mx-auto w-auto" alt="Gereja">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Gereja Masehi Advent</h5>
+                        <p>Mengabarkan Kasih Tuhan</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./hariini.jpg" class="d-block w-auto mx-auto float-center" alt="Program Sosial">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Program Sosial Paskah</h5>
+                        <p>Pelayanan kesehatan gratis</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <div class="contentOverALL">
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Gereja Masehi Advent Hari Ketujuh adalah komunitas umat yang beriman dan berdedikasi kepada Kristus. Kami berusaha menyebarkan kasih dan kebenaran Tuhan melalui pelayanan dan pengajaran firman-Nya.</p>
+        </section>
+
+        <section id="schedule">
+            <h2>Jadwal Ibadah</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Ibadah Sabat</h3>
+                    <p><strong>Hari:</strong> Sabtu</p>
+                    <p><strong>Waktu:</strong> 09:00 - 12:00</p>
+                    <p><strong>Lokasi:</strong> Gereja Utama</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Doa Rabu</h3>
+                    <p><strong>Hari:</strong> Rabu</p>
+                    <p><strong>Waktu:</strong> 19:00 - 20:00</p>
+                    <p><strong>Lokasi:</strong> Ruang Doa</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="news">
+            <h2>Berita Terbaru</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Retreat Keluarga 2024</h3>
+                    <p>Pada bulan Desember 2024, gereja kita akan mengadakan retreat keluarga di lokasi wisata pegunungan. Semua anggota gereja diundang untuk bergabung dalam acara ini.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Program Sosial Paskah</h3>
+                    <p>Kami akan mengadakan kegiatan sosial berupa pembagian sembako dan pelayanan kesehatan gratis di lingkungan sekitar gereja pada perayaan Paskah tahun ini.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Pesan:</label>
+                        <textarea id="message" class="form-control" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Kirim</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gereja Masehi Advent Hari Ketujuh. Semua hak dilindungi undang-undang.</p>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
